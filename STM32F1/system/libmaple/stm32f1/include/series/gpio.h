@@ -398,7 +398,7 @@ typedef enum afio_debug_cfg {
     /** Serial Wire debug only (JTAG-DP disabled, SW-DP enabled) */
     AFIO_DEBUG_SW_ONLY           = AFIO_MAPR_SWJ_CFG_NO_JTAG_SW,
     /** No debug; all JTAG and SW pins are free for use as GPIOs. */
-    AFIO_DEBUG_NONE              = AFIO_MAPR_SWJ_CFG_NO_JTAG_NO_SW,
+    AFIO_DEBUG_NONE              = AFIO_MAPR_SWJ_CFG_NO_JTAG_SW,
 } afio_debug_cfg;
 
 /**
